@@ -34,16 +34,16 @@ h1, h2 {
   text-align: center;
 }
 
-.current {
-  background-color: #b20953;
-}
-
 .buttons a {
   display: inline-block;
   border-radius: 4px;
   background-color: #b2a212;
   color: #fff;
   text-decoration: none;
+}
+
+.buttons .current {
+  background-color: #b20953;
 }
 
 .buttons a:hover {
