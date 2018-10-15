@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia;
+  line-height: 1.5;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -7,9 +10,42 @@ html {
 }
 
 header {
+  background-color: #ffe500;
+
 
 }
 
 footer {
+  background-color: #ffe500;
+}
 
+h1, h2 {
+  font-family: Sigmar One, serif;
+  color: #b20953;
+}
+
+.buttons {
+  list-style-type: none;
+}
+
+.buttons li {
+  display: inline-block;
+  font-family: serif;
+  text-align: center;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+.buttons a {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  background-color: #cc1465;
 }
