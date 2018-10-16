@@ -3,6 +3,7 @@ html {
   font-family: Georgia;
   line-height: 1.5;
   text-align: center;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -22,8 +23,15 @@ footer {
 }
 
 h1, h2 {
+  font-size: 3em;
+  display: inline-block;
+  margin: 0;
   font-family: "Sigmar One", serif;
   color: #b20953;
+}
+
+h2 {
+  font-size: 1.875rem;
 }
 
 .buttons {
@@ -32,13 +40,16 @@ h1, h2 {
 
 .buttons li {
   display: inline-block;
+  margin: .3em;
   font-family: serif;
   text-align: center;
 }
 
 .buttons a {
+  font-size: 1.125rem;
   display: inline-block;
   border-radius: 4px;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   color: #fff;
   text-decoration: none;
@@ -54,5 +65,7 @@ h1, h2 {
 
 img {
   display: block;
+  width: 100%;
+  padding: 0 .75em .75em
   margin: 0;
 }
