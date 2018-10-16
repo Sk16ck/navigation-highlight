@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #ffe500;
 }
@@ -18,7 +22,7 @@ footer {
 }
 
 h1, h2 {
-  font-family: 'Sigmar One', serif;
+  font-family: "Sigmar One", serif;
   color: #b20953;
 }
 
