@@ -11,8 +11,6 @@ html {
 
 header {
   background-color: #ffe500;
-
-
 }
 
 footer {
@@ -20,7 +18,7 @@ footer {
 }
 
 h1, h2 {
-  font-family: Sigmar One, serif;
+  font-family: 'Sigmar One', serif;
   color: #b20953;
 }
 
